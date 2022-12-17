@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Canard TP 2 web</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
+
+    <body>
+        <div id="global">
+            <header id="accueil">
+                    <!--Barre de navigation fixe-->
+                    <nav>
+                        <div><a href="#accueil">Accueil</a></div>
+                        <div><a href="#article">Canards favoris</a></div>
+                        <div><a href="#tableau">Comparaisons</a></div>
+                        <div><a href="#gallerie">Gallerie</a></div>
+                        <div><a href="#video">Vidéos</a></div>
+                        <div><a href="#vote">Vote</a></div>
+                    </nav>
+                <div>
+                    <div id="entete">
+                        <h1>Des canards</h1>
+                        <h2>Parce qu'il n'y en a jamais assez</h2>
+                        <img src="img/duck.png" alt="Canard dessiné">
+                        <h1>TP2</h1>
+                        <h3>par Olivier Poulin</h3>
+                        <h4>582-1W1 - Mise en page Web</h4>
+                        <h4>Techniques d'intégration multimédia</h4>
+                        <h5 id="article">College de Maisonneuve</h5>
+                        <h5>Automne 2022</h5>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <!--Mes articles-->
+                <div>
+                    <article id="colvert">
+                        <h2>Le colvert</h2>
+                        <figure>
+                            <img src="img/colvert.jpg" alt="Un colvert">
+                            <figcaption>Le majestueux colvert</figcaption>
+                        </figure>
+                        <p>Le colvert est de loin le canard le plus reconnaissable peuplant le Canada. Il mesure entre 50 et 70 cm de long et a une envergure d'à peu près un mètre pour un poids d'un peu plus d'un kilogramme pour la moyenne. Le mâle se reconnait par son cou (ou col) vert forêt et la femelle, elle, est plus sobre avec des teintes de brun. Cette espèce est même l'animal de compagnie de certaines personnes au grand cœur.</p>
+                        <p>À mon avis, le colvert n'est pas apprécié à sa juste valeur. Il est beaucoup trop populaire pour ce qu'il est réellement, un gros canard domestique n'ayant comme seule distinction la couleur fort attachante de son cou.</p>
+                        <p>6/10</p>
+                    </article><!--Retirer 
+                        
+         l'espace--><article id="canard-mandarin">
+                        <h2>Le canard mandarin</h2>
+                        <figure>
+                            <img src="img/mandarin.webp" alt="Un canard Mandarin">
+                            <figcaption>Le mignon canard Mandarin</figcaption>
+                        </figure>
+                        <p>Le canard Mandarin est une espèce de canard originaire d'Asie de l'Est. Il mesure de 41 à 50 centimètres de long, possède une envergure se rapprochant des 75 centimètres et pèse aux alentours de 600 grammes. Possédant un plumage coloré, il représente la fidélité en Asie car il vit en couple toute sa vie et est même parfois offert comme cadeau de marriage en Chine.</p>
+                        <p>Sans réelle compétition, l'adorable canard mandarin vient frapper de plein fouet mon âme avec son apparence adorable comme tout. Sa taille compacte et ses couleurs vives tapent l'œil juste comme il faut.</p>
+                        <p>9/10</p>
+                    </article><!--Retirer 
+                        
+         l'espace--><article id="stictonette-tachetée">
+                        <h2>La stictonette tachetée</h2>
+                        <figure>
+                            <img src="img/stictonette.jpg" alt="Une stictonette tachetée">
+                            <figcaption>L'élégante stictonette tachetée</figcaption>
+                        </figure>
+                        <p>La stictonette tachetée, malgré sa ressemblance frappante avec d'autres canards, est souvent considérée plus proche des oies et des cygnes que des canards. Cette espèce mesure entre 50 et 55 centimètres de long, pèse jusqu'à un kilogramme et a une envergure de 75 à 85 centimètres. Malheureusement, elle souffre de la chasse et du drainage des zones humides et sa population est donc réduite à seulement 20,000 individus.</p>
+                        <p>Selon moi, la stictonette tachetée, en comptant son statut de "faux canard", se démarque du reste par sa seule apparence et condition particulière. Le bec passant du rouge au noir fait très élégant et distingué.</p>
+                        <p id="tableau">7/10</p>
+                    </article>
+                </div>
+
+                <!--Tableau comparatif différents canards-->
+                <div>
+                    <table height="600">
+                        <tr>
+                            <th colspan="4">Statistiques des canards</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>Colvert</th>
+                            <th>Canard Mandarin</th>
+                            <th>Stictonette tachetée</th>
+                        </tr>
+                        <tr>
+                            <th>Force</th>
+                            <th class="force">8/10</th>
+                            <th class="force">2/10</th>
+                            <th class="force">7/10</th>
+                        </tr>
+                        <tr>
+                            <th>Endurance</th>
+                            <th class="endurance">5/10</th>
+                            <th class="endurance">7/10</th>
+                            <th class="endurance">9/10</th>
+                        </tr>
+                        <tr>
+                            <th>Intelligence</th>
+                            <th class="intelligence">4/10</th>
+                            <th class="intelligence">5/10</th>
+                            <th class="intelligence">8/10</th>
+                        </tr>
+                        <tr>
+                            <th height="70">Aérodynamisme<br>(ailes repliées)</th>
+                            <th class="yeet">6/10</th>
+                            <th class="yeet">10/10</th>
+                            <th class="yeet">4/10</th>
+                        </tr>
+                        <tr>
+                            <th>Capacité à être domestiqué</th>
+                            <th class="domestique">9/10</th>
+                            <th class="domestique">8/10</th>
+                            <th class="domestique">5/10</th>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <span id="gallerie"></span>
+
+                <!--Plus de canards-->
+                <div id="titre">
+                    <div>
+                        <h1>D'autres canards notables (et adorables)</h1>
+                        <div id="canards1">
+                            <figure>
+                                <img src="img/more_ducks/brant.jpg" alt="Une bernache cravant">
+                                <figcaption>La bernache cravant</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="img/more_ducks/cinnamon_teal.jpg" alt="Une sarcelle cannelle">
+                                <figcaption>La sarcelle cannelle</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="img/more_ducks/king_eider.jpg" alt="Un eider à tête grise">
+                                <figcaption>L'eider à tête grise</figcaption>
+                            </figure>
+                        </div>
+                        <div id="canards2">
+                            <figure>
+                                <img src="img/more_ducks/lesser_scaup.jpg" alt="Une petite fuligule">
+                                <figcaption>La petite fuligule</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="img/more_ducks/red-breasted_merganser.jpg" alt="Un harle huppé">
+                                <figcaption>Le harle huppé</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="img/more_ducks/wood_duck.jpg" alt="Un canard branchu">
+                                <figcaption>Le canard branchu</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Gallerie vidéo-->
+                <span id="video"></span>
+                <div id="youtube">
+                    <div>
+                        <figure>
+                            <h3>Des canards mangeant des petits pois</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kYlYDNJ4HsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </figure>
+                        <figure>
+                            <h3>La nage gracieuse des canards</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RjP02CTyUOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <h3>Le charlatanisme des canards</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EV0sAO_CCc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </figure>
+                        <figure>
+                            <h3>Immense groupe de canards s'envolant</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ri0eXhh43CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                </div>
+                <span id="vote"></span>
+                
+                <!--Formulaire pour demander quel est le canard préféré de l'utilisateur-->
+                <div id="form">
+                    <form action="">
+                        <fieldset>
+                            <legend>Votre avis personnel</legend>
+                            <fieldset id="identification">
+                                <label>Nom: &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" required></label>
+                                <label>Prénom: <input type="text" required></label>
+                                <label>Courriel: <input type="email" required></label>
+                                <label>Âge: &nbsp&nbsp&nbsp&nbsp&nbsp  <input type="number" min="0" max="150" required></label>
+                            </fieldset>
+                            <fieldset>
+                                <fieldset id="voteCanard">
+                                    <legend>Quel est votre canard préféré entre ceux présentés</legend>
+                                    <div>
+                                        <label><input type="radio" name="vote"><span></span> Colvert</label>
+                                        <label><input type="radio" name="vote"><span></span> Canard mandarin</label>
+                                        <label><input type="radio" name="vote"><span></span> Stictonette tachetée</label>
+                                    </div>
+                                </fieldset>
+                                <fieldset id="commentaire">
+                                    <legend>Commentaires et suggestions</legend>
+                                    <label><textarea placeholder="Entrez votre commentaire ici" style="resize: none; width: 600px; height: 150px;"></textarea></label>
+                                </fieldset>
+                            </fieldset>
+                            <div>
+                                <input type="reset" value="Vider">
+                                <input type="submit" value="Envoyer">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </main>
+
+            <footer>
+                <h4>Collège de Maisonneuve - 3800 R. Sherbrooke E, Montréal, QC H1X 2A2</h4>
+                <h4>Liste de différentes espèces de canard<a href="https://www.planeteanimal.com/race-de-canard-2925.html" target="_blank">https://www.planeteanimal.com/race-de-canard-2925.html</a></h4>
+                <h5>Le département de Techniques d'intégration multimédia est un département d'ensignement du collège de Maisonneuve où les élèves apprendrons les bases et les techniques de l'industrie de l'informatique à l'aide de cours portant autant sur le montage photo et vidéo que sur la programmation de sites web et de jeux vidéos.</h5>
+                <div>
+                    <img src="https://s2.svgbox.net/social.svg?ic=youtube&color=ffffff" width="32" height="32"><img src="https://s2.svgbox.net/social.svg?ic=instagram&color=ffffff" width="32" height="32"><img src="https://s2.svgbox.net/social.svg?ic=twitter&color=ffffff" width="32" height="32"><img src="https://s2.svgbox.net/social.svg?ic=facebook&color=ffffff" width="32" height="32">
+                    <h6>Avis de confidentialité || Privacy Notice</h6>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
